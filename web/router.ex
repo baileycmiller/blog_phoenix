@@ -23,4 +23,6 @@ defmodule BlogPhoenix.Router do
   # scope "/api", BlogPhoenix do
   #   pipe_through :api
   # end
+
+  resources "/posts", PostController
 end
